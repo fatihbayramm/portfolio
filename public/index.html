@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/styles.css" rel="stylesheet" />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <title>Fatih Bayram</title>
@@ -24,20 +33,28 @@
             alt="Profile Photo"
             class="rounded-full w-10 h-10"
           />
-          <p>FATİH BAYRAM</p>
+          <p class="tracking-wider">FATİH BAYRAM</p>
         </div>
         <nav class="flex items-center space-x-8">
-          <a href="#" class="hover:text-port-blue transition duration-300"
+          <a
+            href="#"
+            class="hover:text-port-blue transition duration-300 tracking-wider"
             >HOME</a
           >
-          <a href="#" class="hover:text-port-blue transition duration-300"
+          <a
+            href="#"
+            class="hover:text-port-blue transition duration-300 tracking-wider"
             >ABOUT</a
           >
-          <a href="#" class="hover:text-port-blue transition duration-300"
+          <a
+            href="#"
+            class="hover:text-port-blue transition duration-300 tracking-wider"
             >PROJECTS</a
           >
-          <a href="#" class="hover:text-port-blue transition duration-300"
-            >CONTENT</a
+          <a
+            href="#"
+            class="hover:text-port-blue transition duration-300 tracking-wider"
+            >CONTACT</a
           >
         </nav>
       </div>
@@ -76,23 +93,27 @@
     <section class="mt-28">
       <div class="container text-center flex items-center gap-10">
         <div class="basis-4/6">
-          <h1 class="font-bold text-5xl tracking-wider mb-10">ABOUT ME</h1>
+          <h1 class="font-bold text-5xl tracking-wider mb-10 text-left">
+            ABOUT ME
+          </h1>
           <p class="tracking-wider text-lg text-left text-port-grey">
             Hello! I am Fatih, a frontend developer specialized in building
             user-centered, modern, and high-performance web interfaces. I have
             advanced experience with HTML, CSS, Tailwind, JavaScript, and
-            particularly React. I've worked on various project in e-commerce.
-            I’m a team player with strong problem-solving skills, always open to
-            new technologies and innovations. I look forward to contributing to
-            more innovative projects and continuing to grow in the frontend
-            development field.
+            particularly React. <br />
+            <br />
+
+            I've worked on various project in e-commerce. I’m a team player with
+            strong problem-solving skills, always open to new technologies and
+            innovations. I look forward to contributing to more innovative
+            projects and continuing to grow in the frontend development field.
           </p>
         </div>
         <div class="basis-2/6">
           <img
             src="./images/pp.jpg"
             alt="Profile Photo"
-            class="w-full h-full"
+            class="w-full h-full rounded-lg"
           />
         </div>
       </div>
@@ -100,10 +121,148 @@
 
     <!-- Projects Section -->
 
-    <section class="mt-28">
+    <section class="mt-36">
       <div class="container">
-        <h1 class="font-bold text-5xl tracking-wider mb-10">MY PROJECTS</h1>
+        <h1 class="font-bold text-5xl tracking-wider text-center">
+          MY PROJECTS
+        </h1>
+        <h4 class="mb-16 mt-2 text-center tracking-wider text-port-grey">
+          (Click on the pictures for detailed information about the projects.)
+        </h4>
+
+        <a
+          href="https://github.com/fatihbayramm/tailwind"
+          target="_blank"
+          class="hover:scale-110 transition duration-300 flex justify-between mt-28"
+        >
+          <div class="basis-1/2">
+            <img
+              src="./images/batman.png"
+              alt="Batman Project"
+              class="w-96 h-56"
+            />
+          </div>
+          <div class="basis-1/2">
+            <p class="text-left mt-2 text-2xl font-bold tracking-wider">
+              Gega Movie
+            </p>
+            <p class="text-port-grey tracking-wider text-xl mt-2">
+              A movie page made with Tailwind.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://github.com/fatihbayramm/madameCoco"
+          target="_blank"
+          class="hover:scale-110 transition duration-300 flex justify-end mt-36"
+        >
+          <div class="basis-1/2">
+            <p class="mt-2 text-2xl font-bold tracking-wider">Madame Coco</p>
+            <p class="text-port-grey tracking-wider text-xl mt-2">
+              A clone of the Madame Coco website made with JavaScript using a
+              real service.
+            </p>
+          </div>
+
+          <div class="basis-1/2">
+            <img
+              src="./images/madamecoco.png"
+              alt="Madame Coco Project"
+              class="w-96 h-56"
+            />
+          </div>
+        </a>
+        <a
+          href="https://github.com/fatihbayramm/e-commerce"
+          target="_blank"
+          class="hover:scale-110 transition duration-300 flex justify-start mt-36"
+        >
+          <div class="basis-1/2">
+            <img
+              src="./images/ecommerce.jpg"
+              alt="E-Commerce Project"
+              class="w-96 h-56"
+            />
+          </div>
+          <div class="basis-1/2">
+            <p class="text-left mt-2 text-2xl font-bold tracking-wider">
+              E-Commerce
+            </p>
+            <p class="text-port-grey tracking-wider text-xl mt-2">
+              Again, a project made using a real service, React and many other
+              technologies.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://github.com/fatihbayramm/twitter-clone"
+          target="_blank"
+          class="hover:scale-110 transition duration-300 flex justify-end mt-36"
+        >
+          <div class="basis-1/2">
+            <p class="text-left mt-2 text-2xl font-bold tracking-wider">
+              Twitter Clone
+            </p>
+            <p class="text-port-grey tracking-wider text-xl mt-2">
+              Twitter Clone made using React and Tailwind.
+            </p>
+          </div>
+
+          <div class="basis-1/2">
+            <img
+              src="./images/twitter.png"
+              alt="Twitter Clone Project"
+              class="w-96 h-56"
+            />
+          </div>
+        </a>
       </div>
     </section>
+
+    <!-- Contact Section -->
+    <section class="mt-36">
+      <div class="container">
+        <h1 class="font-bold text-5xl tracking-wider text-center">CONTACT</h1>
+        <div class="flex items-center justify-between mt-28">
+          <a href="https://github.com/fatihbayramm/" target="_blank">
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-brands fa-github text-9xl"></i></div
+          ></a>
+          <a href="https://www.linkedin.com/in/fbayramybs/" target="_blank">
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-brands fa-linkedin text-9xl"></i></div
+          ></a>
+          <a href="https://x.com/imfat1h" target="_blank">
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-brands fa-square-x-twitter text-9xl"></i></div
+          ></a>
+          <a href="https://www.instagram.com/fatihbayramf/" target="_blank">
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-brands fa-square-instagram text-9xl"></i></div
+          ></a>
+          <a href="https://bento.me/fatihbayram" target="_blank">
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-solid fa-link text-9xl"></i></div
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=fatihbayramybs@gmail.com&cc=cc@example.com&bcc=bcc@example.com&su=Hello&body=How%20are%20you%3F"
+            target="_blank"
+          >
+            <div class="hover:scale-150 transition duration-300 cursor-pointer">
+              <i class="fa-sharp fa-solid fa-envelope text-9xl"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="mt-36">
+      <div
+        class="bg-black px-6 py-6 text-white text-center text-2xl tracking-wider"
+      >
+        Developed and designed by Fatih Bayram.
+      </div>
+    </footer>
   </body>
 </html>
