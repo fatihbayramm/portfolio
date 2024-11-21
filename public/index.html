@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant&family=Gemunu+Libre:wght@200..800&family=Karma:wght@300&family=Montserrat:wght@200&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:wght@200&family=Rajdhani:wght@300&family=Signika+Negative:wght@700&family=Spectral:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
 
     <title>Portfolio</title>
   </head>
-  <body class="font-open">
+  <body class="font-rubik overflow-hidden">
     <!-- Header Section -->
     <header class="py-6 text-sm font-bold">
       <div class="container flex items-center justify-between">
@@ -42,10 +42,33 @@
         </nav>
       </div>
     </header>
-    <!-- Main Section -->
 
-    <section class="bg-port-grey">
-      <div class="container">asdasd</div>
+    <!-- Main Section -->
+    <section
+      class="bg-port-grey h-2/4 relative flex items-center justify-center"
+    >
+      <img
+        src="./images/background.jpg"
+        alt="Background Image"
+        class="h-full w-full object-cover"
+      />
+      <div
+        class="container absolute bottom-96 mb-24 w-full text-center px-10 py-10"
+      >
+        <h1 class="font-bold text-5xl tracking-wider mb-10">
+          HEY, I'M FATİH BAYRAM
+        </h1>
+        <div class="mb-10">
+          A frontend focused Web Developer building the Frontend of Websites and
+          Web <br />
+          Applications that leads to the success of the overall product.
+        </div>
+        <button
+          class="bg-port-melon font-bold px-16 py-2 shadow-lg hover:scale-105 transition duration-300"
+        >
+          PROJECTS
+        </button>
+      </div>
     </section>
   </body>
 </html>

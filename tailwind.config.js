@@ -13,11 +13,11 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        open: ["Open Sans", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
       },
       colors: {
-        "port-grey": "#e1ecec",
-        "port-melon": "#ffd369",
+        "port-grey": "#dbe0e0",
+        "port-melon": "#ecdc0f",
         "port-blue": "#17a9c7",
       },
     },

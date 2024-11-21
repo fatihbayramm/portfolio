@@ -4,6 +4,6 @@
 
 @layer base {
   a {
-    @apply font-open;
+    @apply font-rubik;
   }
 }
