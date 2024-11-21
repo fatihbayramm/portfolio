@@ -16,8 +16,8 @@ module.exports = {
         rubik: ["Rubik", "sans-serif"],
       },
       colors: {
-        "port-grey": "#dbe0e0",
-        "port-melon": "#ecdc0f",
+        "port-grey": "#696969",
+        "port-melon": "#ffd369",
         "port-blue": "#17a9c7",
       },
     },
