@@ -20,6 +20,10 @@ module.exports = {
         "port-melon": "#ffd369",
         "port-blue": "#17a9c7",
       },
+
+      spacing: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],
