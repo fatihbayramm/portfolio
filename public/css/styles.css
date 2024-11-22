@@ -818,6 +818,22 @@ a {
   padding-left: 0.75rem;
 }
 
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -840,8 +856,8 @@ a {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -858,11 +874,6 @@ a {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -924,12 +935,6 @@ a {
   color: rgb(23 169 199 / var(--tw-text-opacity, 1));
 }
 
-@media (min-width: 640px) {
-  .sm\:justify-center {
-    justify-content: center;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:bottom-64 {
     bottom: 16rem;
@@ -977,6 +982,14 @@ a {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:max-w-none {
+    max-width: none;
   }
 
   .lg\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
