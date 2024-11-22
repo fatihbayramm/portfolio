@@ -69,7 +69,8 @@
 
     <!-- Main Section -->
     <section
-      class="bg-port-grey h-[400px] lg:h-[800px] relative flex items-center justify-center"
+      class="bg-port-grey h-[400px] lg:h-[800px] relative flex items-center justify-center opacity-0 transform translate-y-10 transition duration-700 delay-150"
+      data-scroll
       id="main-section"
     >
       <img
@@ -100,7 +101,11 @@
 
     <!-- About Me Section -->
 
-    <section class="mt-28" id="about-me-section">
+    <section
+      class="mt-28 opacity-0 transform translate-y-10 transition duration-700 delay-150"
+      data-scroll
+      id="about-me-section"
+    >
       <div class="container block lg:flex items-center gap-10 px-4 lg:px-0">
         <div class="basis-4/6">
           <h1
@@ -135,7 +140,11 @@
 
     <!-- Projects Section -->
 
-    <section class="mt-20 lg:mt-36" id="projects-section">
+    <section
+      class="mt-20 lg:mt-36 opacity-0 transform translate-y-10 transition duration-1000 delay-150"
+      data-scroll
+      id="projects-section"
+    >
       <div class="container px-4 lg:px-0">
         <h1 class="font-bold text-3xl lg:text-5xl tracking-wider text-center">
           MY PROJECTS
@@ -240,7 +249,11 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="mt-36" id="contact-section">
+    <section
+      class="mt-36 opacity-0 transform translate-y-10 transition duration-700 delay-150"
+      data-scroll
+      id="contact-section"
+    >
       <div class="container">
         <h1 class="font-bold text-3xl lg:text-5xl tracking-wider text-center">
           CONTACT
@@ -311,5 +324,7 @@
         Developed and designed by Fatih Bayram.
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
