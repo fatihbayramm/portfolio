@@ -30,6 +30,7 @@ Then follow the steps in the tailwind documentation: https://tailwindcss.com/doc
 
 # Deploy
 This project deployed by using Vercel.
+
 - https://portfolio-a024pg612-fatihbayramybs-projects.vercel.app/
 
 # Screenshots
