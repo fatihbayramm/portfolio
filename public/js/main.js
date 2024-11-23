@@ -8,6 +8,3 @@ document.addEventListener("scroll", () => {
     }
   });
 });
-
-// TODO: sayfanin neresindeysen header kismindaki o tag port-blue olsun.
-// TODO: yapabiliyosanda mobil modda navbar kismini ortala.
