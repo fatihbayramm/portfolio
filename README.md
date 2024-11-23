@@ -14,7 +14,9 @@ This project was made with Tailwind to be a reference for job applications.
 # Installation
 Ensure that `node.js` is installed on your system first.
 Clone the git repo and execute install dependencies from npm to get ready.
-Then follow the steps in the tailwind documentation: https://tailwindcss.com/docs/installation
+Then follow the steps in the tailwind documentation:
+
+- https://tailwindcss.com/docs/installation
 
 ## Directory Structure
 
