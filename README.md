@@ -31,9 +31,9 @@ Then follow the steps in the tailwind documentation:
 | `/tailwind.config.js`                               | screen config, color config, animation config...                                                 |
 
 # Deploy
-This project deployed by using Vercel.
+This project deployed by using Github Pages.
 
-- https://portfolio-a024pg612-fatihbayramybs-projects.vercel.app/
+- https://fatihbayramm.github.io/portfolio/
 
 # Screenshots
 
